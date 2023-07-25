@@ -1,0 +1,36 @@
+.Footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  height: 20rem;
+  position: relative;
+}
+.Footer>hr{
+  border: 1px solid var(--lightgray);
+  width: 100%;
+}
+.social{
+  display: flex;
+  gap: 3rem;
+}
+.social>img{
+  width: 2rem;
+  cursor: pointer;
+} 
+
+.footer-blur-1{
+  width: 15rem;
+  height: 15rem;
+  bottom: 0;
+  left: 10rem;
+}
+
+.footer-blur-2{
+   width: 15rem;
+  height: 15rem;
+  bottom: 0;
+  right: 10rem;
+  background: rgba(197, 21, 8, 0.69);
+}
